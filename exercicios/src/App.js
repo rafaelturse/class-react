@@ -1,11 +1,14 @@
 import React from 'react'
-import { SafeAreaView, Text } from 'react-native'
+import { SafeAreaView } from 'react-native'
 
 import Primeiro from './components/Primeiro'
+import X, { Comp1, Comp2 } from './components/Multi'
 
 export default () => (
     <SafeAreaView>
-        <Text>{ 1 +1 }</Text>
+        <X></X>
+        <Comp1></Comp1>
+        <Comp2></Comp2>
         <Primeiro />
     </SafeAreaView>
 )
