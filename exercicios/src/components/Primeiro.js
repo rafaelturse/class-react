@@ -3,4 +3,10 @@ import { Text } from 'react-native'
 
 import Estilo from './estilo'
 
-export default () => <Text style={Estilo.FontG}>Primeiro!</Text>
+export default () => {
+    console.warn('Opa')
+
+    return (
+        <Text style={Estilo.FontG}>Primeiro!</Text>
+    )
+}
