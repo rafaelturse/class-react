@@ -1,9 +1,19 @@
 import { StyleSheet } from 'react-native'
 
 export default (StyleSheet.create({
-    FontG: {
-        fontSize: 32
+    App: {
+        backgroundColor: '#FAFAFA',
+
+        flexGrow: 1,
+
+        justifyContent: "center",
+        alignItems: "center",
+
+        padding: 20
+    },
+    
+    txtG: {
+        fontSize: 32,
+        textAlign: "center"
     }
 }))
-
-

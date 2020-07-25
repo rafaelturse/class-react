@@ -5,15 +5,15 @@ import Estilo from './estilo'
 
 
 export default function () {
-    return <Text style={Estilo.FontG} >Comp #Oficial</Text>
+    return <Text style={Estilo.txtG} >Comp #Oficial</Text>
 }
 
 export function Comp1() {
-    return <Text style={Estilo.FontG} >Comp #01</Text>
+    return <Text style={Estilo.txtG} >Comp #01</Text>
 }
 
 export function Comp2() {
-    return <Text style={Estilo.FontG} >Comp #02</Text>
+    return <Text style={Estilo.txtG} >Comp #02</Text>
 }
 
 /*

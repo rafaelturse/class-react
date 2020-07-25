@@ -7,6 +7,6 @@ export default () => {
     console.warn('Opa')
 
     return (
-        <Text style={Estilo.FontG}>Primeiro!</Text>
+        <Text style={Estilo.txtG}>Primeiro!</Text>
     )
 }
