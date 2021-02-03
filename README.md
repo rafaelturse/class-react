@@ -1,1 +1,1 @@
-# class-react
+# class-react-native
